@@ -1,0 +1,35 @@
+@import "fenglin-font.css";
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+body,
+.page {
+  background-color: #f8f8f8;
+}
+.fa.mrg-r {
+  margin-right: 10px;
+}
+.footer-group-button {
+  bottom: 0;
+}
+.footer-group-button .weui-btn {
+  display: block;
+  margin: 0;
+  border-radius: 0;
+  background-color: #fff;
+}
+.footer-group-button .weui-btn:after {
+  border-radius: 0;
+}
+.footer-group-two-button .weui-btn {
+  width: 50%;
+  float: left;
+}
+.button-sp-area.mrg-b {
+  margin-bottom: 15px;
+}

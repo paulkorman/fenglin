@@ -1,0 +1,22 @@
+@font-face {
+    font-family: 'FenglinFont';
+    src: url('../fonts/fenglin-font-webfont.woff2') format('woff2'),
+    url('../fonts/fenglin-font-webfont.woff') format('woff'),
+    url('../fonts/Fenglin-Font.ttf') format('ttf'),
+    url('../fonts/Fenglin-Font.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.ff {
+    display: inline-block;
+    font: normal normal normal 14px/1 FenglinFont;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.ff-location-arrow:before {
+    content: "\e001";
+}
