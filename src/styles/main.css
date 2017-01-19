@@ -17,8 +17,7 @@ body,
 .footer-group-button {
   bottom: 0;
 }
-.footer-group-button .weui-btn {
-  display: block;
+.footer-group-button .weui-btn-my {
   margin: 0;
   border-radius: 0;
   background-color: #fff;
@@ -27,8 +26,17 @@ body,
   border-radius: 0;
 }
 .footer-group-two-button .weui-btn {
+  margin: 0;
+  border-radius: 0;
+  background-color: #fff;
   width: 50%;
   float: left;
+}
+.weui-footer .pager {
+  margin-bottom: 20px;
+}
+.weui-footer .pager .weui-btn_primary {
+  color: #fff;
 }
 .button-sp-area.mrg-b {
   margin-bottom: 15px;
@@ -51,4 +59,19 @@ body,
   width: 60px;
   height: auto;
   border-radius: 30px;
+}
+#searchBar {
+  margin-bottom: 10px;
+}
+#searchBar .weui-search-bar__label span,
+#searchBar .weui-icon-search,
+#searchBar .weui-search-bar__box .weui-search-bar__input {
+  font-size: 18px;
+}
+#searchBar .weui-search-bar__box {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.weui-btn_primary.mrg-b {
+  margin-bottom: 30px;
 }
