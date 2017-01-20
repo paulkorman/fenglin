@@ -15,26 +15,15 @@
                 <form class="weui-search-bar__form">
                     <div class="weui-search-bar__box">
                         <i class="weui-icon-search"></i>
-                        <input type="search" class="weui-search-bar__input" id="searchInput" placeholder="输入餐厅名称，查看返利余额。" required="">
+                        <input type="search" class="weui-search-bar__input" id="searchInput" value="79812678" placeholder="输入消费者会员号码" required="">
                         <a href="javascript:" class="weui-icon-clear" id="searchClear"></a>
                     </div>
                     <label class="weui-search-bar__label" id="searchText">
                         <i class="weui-icon-search"></i>
-                        <span>输入餐厅名称，查看返利余额。</span>
+                        <span>输入消费者会员号码</span>
                     </label>
                 </form>
-                <a href="javascript:" class="weui-search-bar__cancel-btn" id="searchCancel">取消</a>
-            </div>
-            <div class="wrap-form">
-                <div class="weui-cells__title"><b>请填写介绍面点王给您的朋友会员号：</b></div>
-                <div class="weui-cells">
-                    <div class="weui-cell">
-                        <div class="weui-cell__bd">
-                            <input class="weui-input" type="text" placeholder="输入朋友的会员号码，如果没有，请不用填写！">
-                        </div>
-                    </div>
-                </div>
-                <a href="link-with-this-shopper-confirmation.html" class="weui-btn weui-btn_primary" style="margin-top: 30px">加入</a>
+                <a href="javascript:" class="weui-search-bar__cancel-btn" id="searchCancel">搜索</a>
             </div>
             <script type="text/javascript" class="searchbar js_show">
                 $(function(){
@@ -81,9 +70,16 @@
                     });
                 });
             </script>
-            <div class="weui-footer weui-footer_fixed-bottom footer-group-button footer-group-two-button clearfix">
-                <a href="select-shopper-home.html" class="weui-btn weui-btn_default">首页</a>
-                <a href="memebership-id.html" class="weui-btn weui-btn_default">会员号码</a>
+            <a href="javascript:;" class="weui-btn weui-btn_primary mrg-b">搜索</a>
+            <div class="alert">
+                <i class="weui-icon-warn"></i> 抱歉，找不到消费者
+            </div>
+            <div class="weui-footer weui-footer_fixed-bottom footer-group-button">
+                <div class="footer-group-three-button clearfix">
+                    <a href="adm-home.html" class="weui-btn weui-btn_default">首页</a>
+                    <a href="adm-cashback-statement.html" class="weui-btn weui-btn_default">返利对账单</a>
+                    <a href="adm-shopper-setting.html" class="weui-btn weui-btn_default">商户信息</a>
+                </div>
             </div>
         </div>
 
