@@ -117,3 +117,6 @@ body,
 .weui-cells_form-my .weui-cells {
   margin-top: 0;
 }
+.weui-cells.mrg-t {
+  margin-top: 0;
+}
