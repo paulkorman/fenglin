@@ -70,6 +70,9 @@ body,
 
 .button-sp-area.mrg-b {
   margin-bottom: 15px;
+  .weui-btn {
+    width: 25%;
+  }
 }
 
 .alert {
@@ -150,4 +153,21 @@ body,
 
 .weui-cells.mrg-t {
   margin-top: 0;
+}
+
+.dashed-line-right {
+  border-right: 1px dashed #9e9e9c;
+}
+
+.no-padding-top-bottom {
+  padding-top: 0;
+  padding-bottom: 0;
+  .weui-media-box__bd {
+    .clearfix {
+      > div {
+        padding-top: 15px;
+        padding-bottom: 15px;
+      }
+    }
+  }
 }
