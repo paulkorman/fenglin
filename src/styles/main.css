@@ -55,7 +55,7 @@ body,
   margin-bottom: 15px;
 }
 .button-sp-area.mrg-b .weui-btn {
-  width: 25%;
+  width: 32%;
 }
 .alert {
   margin-top: 200px;
@@ -92,7 +92,7 @@ body,
   padding-right: 40px;
 }
 .weui-btn_primary.mrg-b {
-  margin-bottom: 30px;
+  margin-bottom: 5px;
 }
 .member-detail {
   text-align: center;

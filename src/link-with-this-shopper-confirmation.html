@@ -11,65 +11,6 @@
 <body ontouchstart>
     <div class="page">
         <div class="page__bd page__bd_spacing">
-            <div class="weui-search-bar" id="searchBar">
-                <form class="weui-search-bar__form">
-                    <div class="weui-search-bar__box">
-                        <i class="weui-icon-search"></i>
-                        <input type="search" class="weui-search-bar__input" id="searchInput" placeholder="输入餐厅名称，查看返利余额。" required="">
-                        <a href="javascript:" class="weui-icon-clear" id="searchClear"></a>
-                    </div>
-                    <label class="weui-search-bar__label" id="searchText">
-                        <i class="weui-icon-search"></i>
-                        <span>输入餐厅名称，查看返利余额。</span>
-                    </label>
-                </form>
-                <a href="javascript:" class="weui-search-bar__cancel-btn" id="searchCancel">取消</a>
-            </div>
-            <script type="text/javascript" class="searchbar js_show">
-                $(function(){
-                    var $searchBar = $('#searchBar'),
-                            $searchResult = $('#searchResult'),
-                            $searchText = $('#searchText'),
-                            $searchInput = $('#searchInput'),
-                            $searchClear = $('#searchClear'),
-                            $searchCancel = $('#searchCancel');
-
-                    function hideSearchResult(){
-                        $searchResult.hide();
-                        $searchInput.val('');
-                    }
-                    function cancelSearch(){
-                        hideSearchResult();
-                        $searchBar.removeClass('weui-search-bar_focusing');
-                        $searchText.show();
-                    }
-
-                    $searchText.on('click', function(){
-                        $searchBar.addClass('weui-search-bar_focusing');
-                        $searchInput.focus();
-                    });
-                    $searchInput
-                            .on('blur', function () {
-                                if(!this.value.length) cancelSearch();
-                            })
-                            .on('input', function(){
-                                if(this.value.length) {
-                                    $searchResult.show();
-                                } else {
-                                    $searchResult.hide();
-                                }
-                            })
-                    ;
-                    $searchClear.on('click', function(){
-                        hideSearchResult();
-                        $searchInput.focus();
-                    });
-                    $searchCancel.on('click', function(){
-                        cancelSearch();
-                        $searchInput.blur();
-                    });
-                });
-            </script>
             <div class="alert">
                 <i class="weui-icon-success"></i>您已加入面点王返利计划！<br>
                 <a href="">邀请朋友</a>
