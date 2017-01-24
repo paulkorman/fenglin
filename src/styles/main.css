@@ -42,8 +42,11 @@ body,
   margin: 0;
   border-radius: 0;
   background-color: #fff;
-  width: 33.333333333%;
+  width: 31.5%;
   float: left;
+}
+.footer-group-three-button .weui-btn:first-child + .weui-btn {
+  width: 37%;
 }
 .weui-footer .pager {
   margin-bottom: 20px;
@@ -93,6 +96,8 @@ body,
 }
 .weui-btn_primary.mrg-b {
   margin-bottom: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .member-detail {
   text-align: center;
@@ -103,7 +108,7 @@ body,
   text-align: center;
 }
 .img-shopper {
-  width: 150px;
+  width: 100px;
   margin: 10px;
 }
 .weui-cells_form-my .weui-label {
@@ -111,11 +116,11 @@ body,
   color: #aaa;
 }
 .weui-cells_form-my .weui-cell {
-  height: 48px;
+  height: 40px;
 }
 .weui-cells_form-my .weui-cell_select,
 .weui-cells_form-my .weui-select {
-  height: 64px;
+  height: 56px;
 }
 .weui-cells_form-my .weui-cells {
   margin-top: 0;
@@ -133,4 +138,10 @@ body,
 .no-padding-top-bottom .weui-media-box__bd .clearfix > div {
   padding-top: 15px;
   padding-bottom: 15px;
+}
+.page__bd.mrg-b {
+  margin-bottom: 40px;
+}
+.pager.mrg-b {
+  margin-bottom: 60px;
 }
